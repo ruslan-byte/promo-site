@@ -1,0 +1,39 @@
+@font-face
+{
+	font-family: "Sen";
+	src: url(~assets/fonts/Sen-Regular.ttf) format("truetype");
+}
+@font-face
+{
+	font-family: "Sen";
+	font-weight: 700;
+	src: url(~assets/fonts/Sen-Bold.ttf) format("truetype");
+}
+body{ font-family: "Sen" }
+h2,h3,h4,h5,h6{ font-weight: 700 }
+h2
+{
+	margin-bottom: 32px;
+	margin-top: 32px;
+	font-size: 78px;
+}
+h3
+{
+	font-size: 55px;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+h4
+{
+	font-size: 24px;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+h5{ font-size: 18px; }
+h6{ font-size: 16px; }
+p
+{	
+	font-family: Sen;
+	font-size: 18px;
+	line-height: 150%;
+}
