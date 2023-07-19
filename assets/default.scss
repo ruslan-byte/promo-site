@@ -9,7 +9,16 @@
 	font-weight: 700;
 	src: url(~assets/fonts/Sen-Bold.ttf) format("truetype");
 }
-body{ font-family: "Sen" }
+body
+{
+	font-family: "Sen";
+	--black: #000000;
+	--second-bg-color: #181823;
+	--light-gray: #DEECF9;
+	--dark-grey: #C7E0F4;
+	--white: #ffffff;
+	--primary: #5221E6;
+}
 h2,h3,h4,h5,h6{ font-weight: 700 }
 h2
 {
@@ -36,4 +45,5 @@ p
 	font-family: Sen;
 	font-size: 18px;
 	line-height: 150%;
+	color:var(--light-gray);
 }
