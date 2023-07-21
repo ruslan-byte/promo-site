@@ -76,6 +76,7 @@ export default {
 		padding: 0;
 		svg
 		{
+			stroke:var(--white);
 			width: 24px;
 			height: 24px;
 		}

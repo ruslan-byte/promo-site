@@ -18,6 +18,8 @@ body
 	--dark-grey: #C7E0F4;
 	--white: #ffffff;
 	--primary: #5221E6;
+	background: var(--black);
+	margin: 0;
 }
 h2,h3,h4,h5,h6{ font-weight: 700 }
 h2
@@ -54,4 +56,9 @@ a
 	font-weight: 400;
 	text-decoration: none;
 	&:hover {text-decoration: underline;}
+}
+.container
+{
+	margin-right: 20px;
+	margin-left: 20px;
 }
