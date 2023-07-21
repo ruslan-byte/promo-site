@@ -9,3 +9,10 @@ export default {
   name: 'Header'
 }
 </script>
+<style lang="scss">
+	.header
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+</style>
