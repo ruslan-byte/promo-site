@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'promo-site',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ru'
     },
     meta: [
       { charset: 'utf-8' },
